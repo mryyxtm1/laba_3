@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    border-radius: 50px;
+} */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgb(0, 0, 0, 0.28);
+    border-radius: 0 1px 0px 70px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul,
+li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul,
+li,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-icon {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 96px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.hero-content h1 span {
+    color: #C10606;
+    font-weight: 275;
+    margin-left: 50px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    margin: 20px 0px;
+}
+
+.hero-content button {
+    background-color: #FF4242;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 135px;
+    display: flex;
+}
+
+.right {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 855px;
+    top: 422px;
+}
+
+.kryjok {
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    left: 651px;
+    top: 382px;
+    color: #FF424245;
+}
+
+.kryjok2 {
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    top: 256px;
+    margin-left: 1277px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* .kryjok3 {
+
+    position: absolute;
+    width: 324px;
+    height: 312px;
+    margin-left: 931px;
+    top: 189px;
+
+}  */
+.poloski {
+    position: absolute;
+    width: 1209px;
+    height: 255.5px;
+    left: 14px;
+    top: 559px;
+}
